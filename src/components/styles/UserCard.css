@@ -1,0 +1,56 @@
+
+.usercard {
+    display: inline-flexbox;
+    border: 2.5px solid #dfdcdc;
+    border-radius: 7px;
+    flex-basis: 1;
+    overflow: hidden;
+    margin: 6rem 1rem 0.1rem 3rem;
+    padding: 1rem 0.5rem;
+}
+hr {
+    border: 0.5px solid #ebebeb;
+    margin: 1rem;
+}
+.usercard__hr1 {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.usercard__hr2 {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.usercard__name {
+    text-align: center;
+    padding-top: 0.8rem;
+}
+.usercard__info {
+    margin: 0.8rem;
+}
+.usercard__titles {
+    color: #c9c7c7;
+    margin-bottom: 1rem;
+}
+.usercard__emailInfo {
+    margin-bottom: 0.7rem;
+}
+.usercard__icons {
+    padding-left: 16.7rem;
+    padding-bottom: 0.5rem;
+}
+.usercard__button-trash {
+    font-size: 25px;
+    border: 1.5px solid #cd3c3c;
+    border-radius: 5px;
+    background-color: rgb(210, 83, 83);
+    color: white;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.8rem;
+}
+.usercard__button-pencil {
+    font-size: 25px;
+    border: 1.5px solid #aaa;
+    border-radius: 5px;
+    color: #aaa;
+    padding: 0.3rem 0.5rem;
+}

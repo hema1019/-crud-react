@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    gap: 2em;
+    position: relative;
+}
+
+.header__title {
+    font-size: 50px;
+    display: inline;
+    margin: 2rem;
+}
+
+.header__btn {
+    position: absolute;
+    right: 0;
+    margin: 1rem;
+    width: 190px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    background-color: rgb(74, 63, 149);
+    color: white;
+}
+.header__btn:hover {
+    filter: brightness(1.2);
+}
